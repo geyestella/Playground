@@ -1,0 +1,77 @@
+   Java
+1. Difference between Java and C, C++; C and C++
+Java with C++
+1. Java runs in a virtual machine.
+2. C++ natively supports unsigned arithmetic.
+3. In Java, parameters are always passed by value (or, with objects, their references are passed by value). In C++, parameters can be passed by value, pointer, or by reference.
+4. Java has built-in garbage collection.
+5. C++ allows operator overloading.
+6. C++ allows multiple inheritance of classes.
+
+2. Object Oriented Programming
+
+3. Garbage Collection
+
+4. Polymophism
+
+5. Interface & Abstract
+
+6. Public, Private, Static
+
+7. final 
+
+8. virtual method and inheritance
+
+9. Threads and Locks
+Deadlocks?
+
+10. Error and Exception
+
+   Data Structures 
+1. Arrays and Linked Lists
+    difference:
+  
+2. Stacks and Queues; Stack and Heap
+    difference:
+    
+3. Trees and Graphs?
+
+4. HashMap
+
+   Algorithms
+1. Sorting Algorithms 
+    Bubble Sort
+    Selection Sort
+    Merge Sort
+    Quick Sort
+      How to choose the pivot
+    Bucket Sort
+    Heap Sort?
+
+2. Recursion
+
+3. Divide and Conquer
+
+4. Depth? 
+
+   Web Design
+1. MVC 
+
+2. Framework
+
+   Database
+1. Primary and Foreign Key
+
+2. Normalization
+
+3. Different types of join
+
+   Network
+1. OSI 7 Layer Model
+Level 7 Application Layer
+Level 6 Presentation Layer
+Level 5 Session Layer
+Level 4 Transport Layer
+Level 3 Network Layer
+Level 2 Data Link Layer
+Level 1 Physical Layer
