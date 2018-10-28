@@ -1,18 +1,23 @@
    Java
 1. Difference between Java and C, C++; C and C++
-Java with C++
+   Java with C++
 1. Java runs in a virtual machine.
 2. C++ natively supports unsigned arithmetic.
 3. In Java, parameters are always passed by value (or, with objects, their references are passed by value). In C++, parameters can be passed by value, pointer, or by reference.
 4. Java has built-in garbage collection.
 5. C++ allows operator overloading.
-6. C++ allows multiple inheritance of classes.
+6. C++ allows multiple inheritance of classes. Java single class inheritance, but solves the multiplicity via interfaces.
+7. At compilation time Java Source code converts into byte code .The interpreter execute this byte code at run time and gives output .Java is interpreted for the most part and hence platform independent. C++ run and compile using compiler which converts source code into machine level languages so c++ is platfrom dependents
+Java uses compiler and interpreter both and in c++ their is only compiler
 
+   Java with C
+
+   C with C++
 2. Object Oriented Programming
 
 3. Garbage Collection
 
-4. Polymophism
+4. Polymophism, Inheritance
 
 5. Interface & Abstract
 
