@@ -37,15 +37,59 @@ C++ provides support for exception handling. Exceptions are used for "hard" erro
 
    2. Object Oriented Programming
 面向对象的三个基本特征是：封装、继承、多态 polymorphism, encapsulation, and inheritance
+Encapsulation is an attribute of an object, and it contains all data which is hidden, can be restricted to the members of that class.
+Levels are Public, Protected, Private, Internal and Protected Internal.
+
+Polymorphism is nothing but assigning behavior or value in a subclass to something that was already declared in the main class. 
+Simply, polymorphism takes more than one form.
+
+Inheritance is a concept where one class shares the structure and behavior defined in another class. If inheritance applied on one class 
+is called Single Inheritance, and if it depends on multiple classes, then it is called multiple Inheritance.
+
+A constructor is a method used to initialize the state of an object, and it gets invoked at the time of object creation. 
+Constructor Name should be same as class name. A constructor must have no return type.
+
+An abstract class is a class which cannot be instantiated. Creation of an object is not possible with an abstract class, but it can be
+inherited. An abstract class can contain only Abstract method. Java allows only abstract method in abstract class while for other
+languages allow non-abstract method as well.
+
+Function overloading an as a normal function, but it can perform different tasks. It allows the creation of several methods with the 
+same name which differ from each other by the type of input and output of the function.
+void add(int& a, int& b);void add(double& a, double& b);void add(struct bob& a, struct bob& b);
+
+Operator overloading is a function where different operators are applied and depends on the arguments. Operator,-,* can be used to pass 
+through the function, and it has their own precedence to execute.
+
+Method overriding is a feature that allows a subclass to provide the implementation of a method that overrides in the main class. This
+will overrides the implementation in the superclass by providing the same method name, same parameter and same return type.
+
+Overloading is static binding whereas Overriding is dynamic binding. Overloading is nothing but the same method with different 
+arguments, and it may or may not return the same value in the same class itself.
+Overriding is the same method names with same arguments and return types associated with the class and its child class.
+
    3. Garbage Collection
 (主要从下面几方面解答 GC原理、最好画图解释一下年轻代（Eden区和Survival区）、年老代、比例分配及为啥要这样分代回收)
    4. Polymophism, Inheritance
 
    5. Interface & Abstract
+An interface is a collection of an abstract method. If the class implements an inheritance, and then thereby inherits all the abstract 
+methods of an interface.
 
    6. Public, Private, Static, Protected, Final
+Two types of modifiers are there in java. a) Access Modifiers b) Non-access Modifiers
+   Access Modifiers
+a) private : private fields or methods or constructors are visible within the class in which they are defined.
+b) protected : Protected members of a class are visible within the package but they can be inherited to sub classes outside the package.
+c) public : public members are visible everywhere.
+d) default or No-access modifiers : Members of a class which are defined with no access modifiers are visible within the package in which they are defined.
+   Non-access Modifiers
+a) static : This modifier is used to specify whether a member is a class member or an instance member.
+b) final : It is used to restrict the further modification of a class or a method or a field. (for more on final, click here).
+c) abstract : abstract class or abstract method must be enhanced or modified further. (For more on abstract,  click here).
 
-   7.
+   7. Exception and Error
+   An exception is an event that occurs during the execution of a program. Exceptions can be of any type – Runtime exception, Error exceptions. 
+   Those exceptions are adequately handled through exception handling mechanism like try, catch and throw keywords.
 
    8. virtual method and inheritance
 
