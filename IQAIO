@@ -1,10 +1,11 @@
    Java
    
-1. Difference between Java and C, C++; C and C++
+   1. Difference between Java and C, C++; C and C++
    Java with C++
 1. Java runs in a virtual machine.
 2. C++ natively supports unsigned arithmetic.
-3. In Java, parameters are always passed by value (or, with objects, their references are passed by value). In C++, parameters can be passed by value, pointer, or by reference.
+3. In Java, parameters are always passed by value (or, with objects, their references are passed by value). 
+In C++, parameters can be passed by value, pointer, or by reference.
 4. Java has built-in garbage collection.
 5. C++ allows operator overloading.
 6. C++ allows multiple inheritance of classes. Java single class inheritance, but solves the multiplicity via interfaces.
@@ -13,46 +14,65 @@ Java is interpreted for the most part and hence platform independent. C++ run an
 into machine level languages so c++ is platfrom dependents. Java uses compiler and interpreter both and in c++ their is only compiler
 
    Java with C
+1. Java is an object-oriented language. C is procedure oriented language
+2. Java is interpreted Language. C is a compiled language.
+3. Java is a high-level language. C is a low-level language.
+4. Java does not support pointers. C supports pointers
+5. Java supports inheritance C does not support inheritance.
+6. C uses the top-down {sharp & smooth} approach while JAVA uses the bottom-up {on the rocks} approach.
+7. JAVA supports Method Overloading while C does not support overloading at all.
+8. Exception Handling in JAVA And the errors & crashes in C.
+When an error occurs in a Java program it results in an exception being thrown. It can then be handled using various exception handling 
+techniques. While in C, if there’s an error, there IS an error.
 
    C with C++
-2. Object Oriented Programming
-面向对象的三个基本特征是：封装、继承、多态
-3. Garbage Collection
+1. C is a procedural programming language and does not support classes and objects, 
+while C++ is a combination of both procedural and object oriented programming language;
+2. When compared to C++, C is a subset of C++. C++ is a superset of C. C++ can run most of C code while C cannot run C++ code.
+3. C does not support function and operator overloading. C++ supports both function and operator overloading.
+4. C provides malloc() and calloc()functions for dynamic memory allocation, and free() for memory de-allocation.
+C++ provides new operator for memory allocation and delete operator for memory de-allocation.
+5. C does not provide direct support for error handling (also called exception handling)
+C++ provides support for exception handling. Exceptions are used for "hard" errors that make the code incorrect
+
+   2. Object Oriented Programming
+面向对象的三个基本特征是：封装、继承、多态 polymorphism, encapsulation, and inheritance
+   3. Garbage Collection
 (主要从下面几方面解答 GC原理、最好画图解释一下年轻代（Eden区和Survival区）、年老代、比例分配及为啥要这样分代回收)
-4. Polymophism, Inheritance
+   4. Polymophism, Inheritance
 
-5. Interface & Abstract
+   5. Interface & Abstract
 
-6. Public, Private, Static, Protected, Final
+   6. Public, Private, Static, Protected, Final
 
-7.
+   7.
 
-8. virtual method and inheritance
+   8. virtual method and inheritance
 
-9. Threads and Locks
+   9. Threads and Locks
 Deadlocks?
 
-10. Error and Exception
+   10. Error and Exception
 
    Data Structures 
-1. Arrays and Linked Lists
+   1. Arrays and Linked Lists
     difference:
   
     Reverse Linked list(recursive and non-recursive)
-2. Stacks and Queues; Stack and Heap
+   2. Stacks and Queues; Stack and Heap
     difference:
     
-3. Trees and Graphs?
+   3. Trees and Graphs?
    Heap
    Huffman tree
    Binary Sort Tree O(n)
    balanced binary tree
    B-tree
    Trie
-4. HashMap
+   4. HashMap
 
    Algorithms
-1. Sorting Algorithms 
+   1. Sorting Algorithms 
    常见的稳定排序算法有：
 冒泡排序（Bubble Sort） — O(n²)
 插入排序（Insertion Sort）— O(n²)
@@ -89,34 +109,34 @@ return i+1
 在最坏的情况下，数组刚好和想要的结果顺序相同，每次 partition 到的都是当前无序区中最小(或最大)的记录，因此只得到一个比上一次划分少一个记录的子序列。T(n) = O(n) + T(n-1)
 解为 T(n) = O(n²)
 在平均的情况下，快排的时间复杂度是 O(nlog(n))
-2. Recursion
+   2. Recursion
 
-3. Divide and Conquer
+   3. Divide and Conquer
 
-4. Depth? 
+   4. Depth? 
 
    Web Design
-1. MVC 
+   1. MVC 
 
-2. Framework
+   2. Framework
 
    Database
-1. Primary and Foreign Key
+   1. Primary and Foreign Key
 
-2. Normalization
+   2. Normalization
 
-3. Different types of join
+   3. Different types of join
 
-4. Design Cycle
+   4. Design Cycle
 
-5. Index
+   5. Index
 第一，通过创建唯一性的索引，可以保证数据库表中每一行数据的唯一性。
 第二，可以大大加快数据的检索速度，这也使创建索引的最主要的原因。
 第三，可以加速表和表之间的连接，特别是在实现数据的参考完整性方面特别有意义。
 第四，在使用分组和排序子句进行数据检索时，同样可以显著的减少查询中查询中分组和排序的时间。
 第五，通过使用索引，可以在查询的过程中，使用优化隐藏器，提高系统的性能。 
    Network
-1. OSI 7 Layer Model
+   1. OSI 7 Layer Model
 Level 7 Application Layer
 Level 6 Presentation Layer
 Level 5 Session Layer
