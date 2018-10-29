@@ -70,6 +70,8 @@ Overriding is the same method names with same arguments and return types associa
    3. Garbage Collection
 (主要从下面几方面解答 GC原理、最好画图解释一下年轻代（Eden区和Survival区）、年老代、比例分配及为啥要这样分代回收)
    4. Polymophism, Inheritance
+Inheritance refers to using the structure and behavior of a super class in a subclass.
+Polymorphism refers to changing the behavior of a super class in the subclass
 
    5. Interface & Abstract
 An interface is a collection of an abstract method. If the class implements an inheritance, and then thereby inherits all the abstract 
