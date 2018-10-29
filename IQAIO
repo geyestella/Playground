@@ -98,6 +98,11 @@ Deadlocks?
 
    10. Error and Exception
 
+   11. public static void main(String[] args)
+   The StringBuffer class is used to represent characters that can be modified
+   string args[] : its a command line argument it is a collection of variables in the string format.
+   Java only starts running a program with the specific public static void main(String[] args) signature, and one can think of a signature like their own name -
+   it's how Java can tell the difference between someone else's main() and the one true main().
    Data Structures 
    1. Arrays and Linked Lists
     difference:
