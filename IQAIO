@@ -69,6 +69,7 @@ Overriding is the same method names with same arguments and return types associa
 
    3. Garbage Collection
 (主要从下面几方面解答 GC原理、最好画图解释一下年轻代（Eden区和Survival区）、年老代、比例分配及为啥要这样分代回收)
+
    4. Polymophism, Inheritance
 Inheritance refers to using the structure and behavior of a super class in a subclass.
 Polymorphism refers to changing the behavior of a super class in the subclass
@@ -76,6 +77,19 @@ Polymorphism refers to changing the behavior of a super class in the subclass
    5. Interface & Abstract
 An interface is a collection of an abstract method. If the class implements an inheritance, and then thereby inherits all the abstract 
 methods of an interface.
+	Abstract Class	vs. Interface
+1	 An abstract class can extend only one class or one abstract class at a time	 
+    An interface can extend any number of interfaces at a time
+2	 An abstract class can extend another concrete (regular) class or abstract class	 
+    An interface can only extend another interface
+3	 An abstract class can have both abstract and concrete methods	 
+    An interface can have only abstract methods
+4	 In abstract class keyword “abstract” is mandatory to declare a method as an abstract	 
+    In an interface keyword “abstract” is optional to declare a method as an abstract
+5	 An abstract class can have protected and public abstract methods	 
+    An interface can have only have public abstract methods
+6	 An abstract class can have static, final or static final variable with any access specifier	 
+    interface can only have public static final (constant) variable
 
    6. Public, Private, Static, Protected, Final
 Two types of modifiers are there in java. a) Access Modifiers b) Non-access Modifiers
