@@ -1,3 +1,17 @@
+0. Difference between recursion and iteration 
+an iterative function is one that loops to repeat some part of the code, and 
+a recursive function is one that calls itself again to repeat the code. 
+
+1. Software development process? Agile? 
+Most modern development processes can be vaguely described as agile. Other methodologies include waterfall, prototyping, 
+iterative and incremental development, spiral development, rapid application development, and extreme programming.
+
+"Agile software development" refers to a group of software development methodologies based on iterative development, where 
+requirements and solutions evolve via collaboration between self-organizing cross-functional teams. 
+
+The waterfall model is a sequential development approach, in which development is seen as flowing steadily downwards (like 
+a waterfall) through several phases, typically:
+
    Java
    
    1. Difference between Java and C, C++; C and C++
