@@ -69,8 +69,16 @@ Overriding is the same method names with same arguments and return types associa
 
    3. Garbage Collection
 (主要从下面几方面解答 GC原理、最好画图解释一下年轻代（Eden区和Survival区）、年老代、比例分配及为啥要这样分代回收)
+Stack & Heap
+Java has built-in garbage collection
+sufficient memory may not be available and entire program will terminate abnormally causing OutOfMemoryErrors.
+Main objective of Garbage Collector is to free heap memory by destroying unreachable objects.
 
-   4. Polymophism, Inheritance
+Heap is dividened into different generations.
+Young Generation(Eden, survivor space)(minor garbage collection), old generation(main garbage collection), permanent generation
+Unreferenced objects are deleted and referenced objects are moved to a survivor space.
+when aged objects reach a certain age threshold (8 in this example) they are promoted from young generation to old generation.
+4. Polymophism, Inheritance
 Inheritance refers to using the structure and behavior of a super class in a subclass.
 Polymorphism refers to changing the behavior of a super class in the subclass
 
@@ -100,8 +108,8 @@ c) public : public members are visible everywhere.
 d) default or No-access modifiers : Members of a class which are defined with no access modifiers are visible within the package in which they are defined.
    Non-access Modifiers
 a) static : This modifier is used to specify whether a member is a class member or an instance member.
-b) final : It is used to restrict the further modification of a class or a method or a field. (for more on final, click here).
-c) abstract : abstract class or abstract method must be enhanced or modified further. (For more on abstract,  click here).
+b) final : It is used to restrict the further modification of a class or a method or a field. 
+c) abstract : abstract class or abstract method must be enhanced or modified further. 
 
    7. Exception and Error
    An exception is an event that occurs during the execution of a program. Exceptions can be of any type – Runtime exception, Error exceptions. 
@@ -179,7 +187,7 @@ return i+1
    3. Divide and Conquer
 
    4. Depth? 
-
+DFS BFS
    Web Design
    1. MVC 
 
