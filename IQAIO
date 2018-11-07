@@ -50,7 +50,7 @@ C++ provides new operator for memory allocation and delete operator for memory d
 C++ provides support for exception handling. Exceptions are used for "hard" errors that make the code incorrect
 
    2. Object Oriented Programming
-面向对象的三个基本特征是：封装、继承、多态 polymorphism, encapsulation, and inheritance
+面向对象的三个基本特征是：封装、多态、继承 encapsulation, polymorphism, and inheritance
 Encapsulation is an attribute of an object, and it contains all data which is hidden, can be restricted to the members of that class.
 Levels are Public, Protected, Private, Internal and Protected Internal.
 
